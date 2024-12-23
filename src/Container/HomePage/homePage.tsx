@@ -77,17 +77,18 @@ const HomePageSection: React.FC = () => {
     <Grid>
       <Grid className={`${styles.homePageColour}`}>
         <Grid container justifyContent="space-between">
-          <Grid item md={5} style={{ padding: "1% 5%" }}>
+          <Grid item  sm={12} md={5} style={{ padding: "1% 5%" }}>
             <p className={`${styles.heading} font80`}>
               Step into Style, Stride with Confidence
               <br />
             </p>
+            
             <Button variant="contained" style={{zIndex:"100"}} className={`${styles.shopNowButton}`}>
               SHOP NOW
             </Button>
           </Grid>
 
-          <Grid item md={7} className={`${styles.homePageShoesImageContent}`}>
+          <Grid item sm={12} md={7} className={`${styles.homePageShoesImageContent}`}>
             <Image
               className={`${styles.homePageShoes}`}
               src={homePageShoes}
@@ -116,7 +117,7 @@ const HomePageSection: React.FC = () => {
         >
           {fashionShoesNumber.map((item, index) => (
             <Grid item key={index} className={`${styles.fashionShoesContent}`}>
-              <Image src={item.image1} alt={item.title} />
+              <Image  style={{width:"100%"}}  src={item.image1} alt={item.title} />
               <p className={`${styles.fashionShoesTitle}`}>{item.title}</p>
             </Grid>
           ))}
@@ -164,7 +165,7 @@ const HomePageSection: React.FC = () => {
               key={index}
               className={`${styles.menRunningShoesContent}`}
             >
-              <Image src={item.image} alt={item.title} />
+              <Image  style={{width:"100%"}}  src={item.image} alt={item.title} />
               <p className={`${styles.MenRunningShoesHeading}`}>
                 {item.heading}
               </p>
@@ -228,7 +229,7 @@ const HomePageSection: React.FC = () => {
               key={index}
               className={`${styles.menRunningShoesContent}`}
             >
-              <Image src={item.image} alt={item.title} />
+              <Image  style={{width:"100%"}}  src={item.image} alt={item.title} />
               <p className={`${styles.MenRunningShoesHeading}`}>
                 {item.heading}
               </p>
@@ -321,7 +322,7 @@ const HomePageSection: React.FC = () => {
               key={index}
               className={`${styles.menRunningShoesContent}`}
             >
-              <Image src={item.image} alt={item.title} />
+              <Image style={{width:"100%"}} src={item.image} alt={item.title} />
               <p className={`${styles.MenRunningShoesHeading}`}>
                 {item.heading}
               </p>
