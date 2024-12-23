@@ -33,7 +33,7 @@ const NavbarSection: React.FC = () => {
         justifyContent="center"
         item
         md={2}
-        mt={2}
+        mt={2} style={{zIndex:"100"}}
         className={`${styles.homeLogoHeading}`}
       >
         <Grid style={{ position: "relative", justifyContent: "center" }}>

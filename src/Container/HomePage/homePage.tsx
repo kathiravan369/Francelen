@@ -82,7 +82,7 @@ const HomePageSection: React.FC = () => {
               Step into Style, Stride with Confidence
               <br />
             </p>
-            <Button variant="contained" className={`${styles.shopNowButton}`}>
+            <Button variant="contained" style={{zIndex:"100"}} className={`${styles.shopNowButton}`}>
               SHOP NOW
             </Button>
           </Grid>
