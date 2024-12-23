@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body {
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.primaryTextColor {
+  color: aqua;
+}
+
+.primaryBgColor {
+  background: green;
+}
+
+.secondaryTextColor {
+  color: rgb(227, 132, 43);
+}
+
+.secondaryBgColor {
+  background: rgb(227, 132, 43);
+}
+
+.font40 {
+  font-size: 40px;
+}
+
+.font32 {
+  font-size: 32px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font68 {
+  font-size: 68px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font12 {
+  font-size: 12px;
+}
+.font28 {
+  font-size: 28px;
+}
+.font18 {
+  font-size: 18px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .font40 {
+    font-size: 20px;
+  }
+
+  .font32 {
+    font-size: 32px;
+  }
+
+  .font20 {
+    font-size: 14px;
+  }
+  .font14 {
+    font-size: 10px;
+  }
+  .font68 {
+    font-size: 32px;
+  }
+  .font16 {
+    font-size: 12px;
+  }
+  .font12 {
+    font-size: 12px;
+  }
+  .font28 {
+    font-size: 20px;
+  }
+  .font18 {
+    font-size: 18px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+  .font40 {
+    font-size: 40px;
+  }
+
+  .font32 {
+    font-size: 32px;
+  }
+
+  .font20 {
+    font-size: 20px;
+  }
+  .font14 {
+    font-size: 14px;
+  }
+  .font68 {
+    font-size: 68px;
+  }
+  .font16 {
+    font-size: 16px;
+  }
+  .font12 {
+    font-size: 12px;
+  }
+  .font28 {
+    font-size: 28px;
+  }
+  .font18 {
+    font-size: 18px;
+  }
+}
