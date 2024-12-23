@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <div>
      <NavbarSection/>
-     <HomePageSection/>
+     <HomePageSection/>  
+     
      <FooterSection/>
     </div>
   );
